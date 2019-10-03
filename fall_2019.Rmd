@@ -1,0 +1,17 @@
+---
+title: "Resources for my awesome students"
+author: "Evangeline Reynolds"
+date: "10/3/2019"
+output: html_document
+---
+
+
+
+If you need a review of our theoretical exploration of the grammar of graphics and its use with ggplot2, [The ggplot2 grammar guide](https://evamaerey.github.io/ggplot2_grammar_guide/ggplot2_grammar_guide).
+
+A suppliment to this guide shows you a lot of "geoms" that you can use to communicate about your data, [The geom pile on](https://evamaerey.github.io/ggplot2_grammar_guide/geoms.html).
+
+For examples of data wrangling/manipulation with pipelines (`%>%`) [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html).
+
+For variety of examples of plot builds [the ggplot flipbook](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html).
+
