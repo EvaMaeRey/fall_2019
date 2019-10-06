@@ -6,12 +6,52 @@ output: html_document
 ---
 
 
+```{r setup, include = F}
+knitr::opts_chunk$set(echo = F)
+```
 
-If you need a review of our theoretical exploration of the grammar of graphics and its use with ggplot2, [The ggplot2 grammar guide](https://evamaerey.github.io/ggplot2_grammar_guide/ggplot2_grammar_guide).
 
-A suppliment to this guide shows you a lot of "geoms" that you can use to communicate about your data, [The geom pile on](https://evamaerey.github.io/ggplot2_grammar_guide/geoms.html).
+If you need a review of our theoretical exploration of the grammar of graphics and its use with ggplot2, see [The ggplot2 grammar guide](https://evamaerey.github.io/ggplot2_grammar_guide/ggplot2_grammar_guide){target="_blank"}.
 
-For examples of data wrangling/manipulation with pipelines (`%>%`) [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html).
+```{r, out.width="45%"}
+knitr::include_graphics(c("figures/grammar_order.png", "figures/column_aesthetics.png"))
+```
 
-For variety of examples of plot builds [the ggplot flipbook](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html).
+<hr>
+
+A suppliment to this guide shows you a lot of "geoms" that you can use to communicate about your data is [The geom pile on](https://evamaerey.github.io/ggplot2_grammar_guide/geoms.html){target="_blank"}.  In class we saw the pile of different geoms to communicate abou the same data, showing you how these plot types relate to one another. 
+
+
+```{r, out.width="45%"}
+knitr::include_graphics(c("figures/one_continuous.png", "figures/two_continuous.png"))
+```
+
+<hr>
+
+For examples of data wrangling/manipulation with pipelines (`%>%`) [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html){target="_blank"}.
+
+```{r, out.width="28%"}
+knitr::include_graphics(c("figures/key_manipulation_functions.png", "figures/median_by_group.png", "figures/select_distinct.png"))
+```
+
+
+<hr>
+
+For some life-changing, magical, and real-life examples on scanning data into R and cleaning data, [the data cleaning flipbook](https://evamaerey.github.io/little_flipbooks_library/data_cleaning/data_cleaning){target="_blank"}.
+
+
+```{r, out.width="60%", fig.align="center"}
+knitr::include_graphics(c("figures/data_cleaning_flipbook1.png"))
+```
+<hr>
+
+And for variety of examples of plot builds using ggplot2, see [the ggplot flipbook](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html){target="_blank"}.
+
+```{r, out.width="95%"}
+knitr::include_graphics(c("figures/visual_table_of_contents.png"))
+```
+
+```{r, out.width="45%"}
+knitr::include_graphics(c( "figures/rank_the_traits.png", "figures/uk.png"))
+```
 
